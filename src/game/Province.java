@@ -6,13 +6,13 @@ public class Province {
 	private String name;
 	private ArrayList<Province> borders = new ArrayList<>();
 	private int troopNums;
-	private Player onwer;
+	private Player owner;
 	
 	public Province(String nme, ArrayList<Province> bordering, int army, Player owning){
 		name = nme;
 		borders = bordering;
 		troopNums = army;
-		onwer = owning;
+		owner = owning;
 	}
 
 	public String getName() {
@@ -39,12 +39,12 @@ public class Province {
 		this.troopNums = troopNums;
 	}
 
-	public Player getOnwer() {
-		return onwer;
+	public Player getOwner() {
+		return owner;
 	}
 
-	public void setOnwer(Player onwer) {
-		this.onwer = onwer;
+	public void setOwner(Player owner) {
+		this.owner = owner;
 	}
 
 }
