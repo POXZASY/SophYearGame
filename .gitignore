@@ -1,2 +1,6 @@
 /bin/
 /.metadata/
+
+Game/\.classpath
+
+Game/\.project
