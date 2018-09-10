@@ -9,11 +9,11 @@ public class Province {
 	private int troopNums;
 	private Player owner;
 	
-	public Province(String nme, ArrayList<Province> bordering, int army, Player owning){
-		name = nme;
-		borders = bordering;
-		troopNums = army;
-		owner = owning;
+	public Province(String name, ArrayList<Province> bordering, int army, Player owning){
+		this.name = name;
+		this.borders = bordering;
+		this.troopNums = army;
+		this.owner = owning;
 	}
 
 	public String getName() {
@@ -47,5 +47,5 @@ public class Province {
 	public void setOwner(Player owner) {
 		this.owner = owner;
 	}
-
+	
 }
