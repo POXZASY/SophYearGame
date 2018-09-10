@@ -28,8 +28,7 @@ public class Main {
 
 		Province south_africa = new Province("South Africa");
 		Province madagascar = new Province("Madagascar");
-		alaska.setBorders(Arrays.asList(northwest_territory,alberta,kamchatka));
-		northwest_territory.setBorders(Arrays.asList(alaska,greenland,alberta,ontario));
+		
 
 		
 		Province great_britian = new Province("Great Britian");
@@ -57,6 +56,9 @@ public class Main {
 		Province new_guinea = new Province("New Guinea");
 		Province western_australia = new Province("Western Australia");
 		Province eastern_australia = new Province("Eastern Australia");
+		
+		//Borders
+		northwest_territory.setBorders(new ArrayList<>(Arrays.asList(alaska,greenland,alberta,ontario)));
 
 	}
 
