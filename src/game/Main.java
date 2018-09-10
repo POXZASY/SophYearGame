@@ -45,7 +45,7 @@ public class Main {
 		Province ural = new Province("Ural");
 		Province siberia = new Province("Siberia");
 		Province yakutsk = new Province("Yakutsk");
-		Province Kamchatka = new Province("Kamchatka");
+		Province kamchatka = new Province("Kamchatka");
 		Province irkutsk = new Province("Irkutsk");
 		Province mongolia = new Province("Mongola");
 		Province japan = new Province("Japan");
@@ -58,8 +58,9 @@ public class Main {
 		Province eastern_australia = new Province("Eastern Australia");
 		
 		//Borders
-		northwest_territory.setBorders(new ArrayList<>(Arrays.asList(alaska,greenland,alberta,ontario)));
-
+		
+		
+		
 	}
 
 }
