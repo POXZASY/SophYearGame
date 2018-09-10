@@ -5,15 +5,13 @@ import java.util.ArrayList;
 
 public class Province {
 	private String name;
-	private ArrayList<Province> borders = new ArrayList<>();
+	private ArrayList<Province> borders;
 	private int troopNums;
 	private Player owner;
 	
-	public Province(String name, ArrayList<Province> bordering){
+	public Province(String name){
 		this.name = name;
-		this.borders = bordering;
 		this.troopNums = 0;
-		this.owner = null;
 	}
 
 	public String getName() {
