@@ -1,6 +1,7 @@
 package game;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.ArrayList;
 
 public class Province {
 	private String name;
