@@ -9,9 +9,10 @@ public class Province {
 	private int troopNums;
 	private Player owner;
 	
-	public Province(String name){
+	public Province(String name, ArrayList<Province> borders){
 		this.name = name;
 		this.troopNums = 0;
+		this.borders = borders;
 	}
 
 	public String getName() {
