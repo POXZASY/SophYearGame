@@ -30,12 +30,17 @@ public class Main {
 		Province madagascar = new Province("Madagascar");
 		alaska.setBorders(Arrays.asList(northwest_territory,alberta,kamchatka));
 		northwest_territory.setBorders(Arrays.asList(alaska,greenland,alberta,ontario));
-		
-		
-		
 
-		Province south_africa = new Province("South_Africa");
-		Province madagascar = new Province("Madagascar");
+		
+		Province great_britian = new Province("Great Britian");
+		Province ice_land = new Province("Ice Land");
+		Province western_europe = new Province("Western Europe");
+		Province northern_europe = new Province("Northern Europe");
+		Province southern_europe = new Province("Southern Europe");
+		Province scandinavia = new Province("Scandinavia");
+		Province ukraine = new Province("Ukraine");
+		
+		
 		Province middle_east = new Province("Middle East");
 		Province afghanistan = new Province("Afghanistan");
 		Province ural = new Province("Ural");
